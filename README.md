@@ -101,7 +101,7 @@ This confirms:
 
 ## Architecture Diagram
 
-![Architecture](./aws-secure-vpc-nat-architecture.png.jpeg)
+![Architecture](./aws-secure-vpc-nat-architecture.png)
 
 ---
 
