@@ -85,36 +85,53 @@ Private instances do not have public IPs and access the internet securely throug
 
 ### Private Instance Internet Test
 
-``bash
+```bash
 ping -c 3 google.com
+```
 
+Result:
+- Replies received successfully  
+- 0% packet loss  
 
+This confirms:
+- NAT Gateway is working  
+- Private instance has internet access  
+
+---
 
 ## Architecture Diagram
 
-![Architecture](./architecture.png)
+![Architecture](./aws-secure-vpc-nat-architecture.png.jpeg)
 
 ---
 
 ## Screenshots
 
+### 1. Elastic IP Allocation
 ![Elastic IP](./screenshots/01-elastic-ip-allocation.jpg)
 
+### 2. NAT Gateway Creation
 ![NAT Gateway](./screenshots/02-nat-gateway-creation.jpg)
 
-![Route Table Initial](./screenshots/03-route-table-private.jpg)
+### 3. Private Route Table (Initial)
+![Route Table](./screenshots/03-route-table-private.jpg)
 
+### 4. NAT Route Configuration
 ![NAT Route](./screenshots/04-route-table-nat-config.jpg)
 
-![Route Table Final](./screenshots/05-route-table-private-final.jpg)
+### 5. Private Route Table (Final)
+![Final Route Table](./screenshots/05-route-table-private-final.jpg)
 
+### 6. Private Instance Ping Test
 ![Ping Test](./screenshots/06-private-instance-ping-test.jpg)
 
+---
 
-Conclusion
-Private resources are not exposed to the internet
-Internet access is controlled via NAT Gateway
-Proper subnet and routing design
+## Conclusion
 
+This project demonstrates a production-style AWS network:
 
-
+- Private resources are not exposed to the internet  
+- Internet access is controlled via NAT Gateway  
+- Proper subnet and routing design  
+- Secure and scalable architecture  
