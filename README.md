@@ -92,8 +92,6 @@ ping -c 3 google.com
 
 ## Architecture Diagram
 
-![Architecture](./architecture.png)
-
 ---
 
 ## Screenshots
@@ -105,7 +103,7 @@ ping -c 3 google.com
 ![Route Table Final](./screenshots/05-route-table-private-final.jpg)  
 ![Ping Test](./screenshots/06-private-instance-ping-test.jpg)
 
-
+![Architecture](./architecture.png)
 
 
 Conclusion
