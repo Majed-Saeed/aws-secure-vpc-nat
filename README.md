@@ -92,18 +92,23 @@ ping -c 3 google.com
 
 ## Architecture Diagram
 
+![Architecture](./architecture.png)
+
 ---
 
 ## Screenshots
 
-![Elastic IP](./screenshots/01-elastic-ip-allocation.jpg)  
-![NAT Gateway](./screenshots/02-nat-gateway-creation.jpg)  
-![Route Table Initial](./screenshots/03-route-table-private.jpg)  
-![NAT Route](./screenshots/04-route-table-nat-config.jpg)  
-![Route Table Final](./screenshots/05-route-table-private-final.jpg)  
-![Ping Test](./screenshots/06-private-instance-ping-test.jpg)
+![Elastic IP](./screenshots/01-elastic-ip-allocation.jpg)
 
-![Architecture](./architecture.png)
+![NAT Gateway](./screenshots/02-nat-gateway-creation.jpg)
+
+![Route Table Initial](./screenshots/03-route-table-private.jpg)
+
+![NAT Route](./screenshots/04-route-table-nat-config.jpg)
+
+![Route Table Final](./screenshots/05-route-table-private-final.jpg)
+
+![Ping Test](./screenshots/06-private-instance-ping-test.jpg)
 
 
 Conclusion
